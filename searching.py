@@ -33,7 +33,7 @@ def linear_search(seq, number):
         if seq[idx] == number:
             indices.append(idx)
             count += 1
-    idx +=1
+        idx +=1
     return {
         'positions': indices,
         'count': count,
